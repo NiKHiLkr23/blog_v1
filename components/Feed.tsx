@@ -5,7 +5,7 @@ import { urlFor } from "../sanity";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import tz from "dayjs/plugin/timezone";
-import LocalizedFormat from "dayjs/plugin/LocalizedFormat";
+import LocalizedFormat from "dayjs/plugin/localizedFormat";
 
 dayjs.extend(LocalizedFormat);
 dayjs.extend(utc);
